@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.template.HelloController">
+   <children>
+      <Button fx:id="btnClick" layoutX="21.0" layoutY="20.0" mnemonicParsing="false" onAction="#handleClick" text="click me" textFill="#e81313" />
+      <GridPane fx:id="gPain" layoutX="192.0" layoutY="125.0">
+
+      </GridPane>
+      <Button fx:id="btnEasy" layoutX="25.0" layoutY="52.0" mnemonicParsing="false" text="easy" />
+      <Button layoutX="25.0" layoutY="85.0" mnemonicParsing="false" text="intermidiate" />
+      <Button layoutX="25.0" layoutY="119.0" mnemonicParsing="false" text="hard" />
+   </children>
+</AnchorPane>
